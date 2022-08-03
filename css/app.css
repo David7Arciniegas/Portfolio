@@ -585,6 +585,11 @@ background: rgba(0, 0, 0, 0.7);
     font-size: 3rem;
   }
 
+  .nav{
+    padding-left: 2.8rem;
+  }
+  
+
   .seccion .h3 {
 
     font-size: 2em;
@@ -601,3 +606,17 @@ background: rgba(0, 0, 0, 0.7);
 }
 
 
+
+@media (max-width: 450px) {
+  .logo1{
+    width: 30rem;
+  
+
+}
+
+.nav{
+  padding-left: 2.8rem;
+}
+
+
+}
