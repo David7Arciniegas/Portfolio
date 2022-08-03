@@ -472,6 +472,7 @@ fill: seagreen;
 }
 .about .h2 {
   margin: 0 0 2rem;
+  font-size: 5rem;
 }
 .about .p {
   max-width: 30rem;
@@ -555,10 +556,48 @@ background: rgba(0, 0, 0, 0.7);
   .logo1{
     width: 23rem;
   }
+  .about .h2 {
+    margin: 0 0 2rem;
+    font-size: 5rem;
+  }
+
+
+  
+
 }
 
 @media (max-width: 700px) {
   .logo1{
     width: 18rem;
   }
+  .about .h2 {
+    margin: 0 0 2rem;
+    font-size: 5rem;
+  }
 }
+
+@media (max-width: 600px) {
+  .logo1{
+    width: 18rem;
+  }
+  .about .h2 {
+    margin: 0 0 4rem;
+    font-size: 3rem;
+  }
+
+  .seccion .h3 {
+
+    font-size: 2em;
+    padding-bottom: 2rem;
+   
+  }
+  .seccion .h2 {
+
+    font-size: 3em;
+    padding-bottom: 2rem;
+   
+  }
+
+}
+
+
