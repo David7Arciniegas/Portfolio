@@ -27,16 +27,7 @@
 }
 
 /* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root {
-   
-    --blanco: #181818;
-    --blanco-2:  rgba(0,0,0, .2);
-    --negro:   #e0e0e0;
-    --negro-5: rgba(248, 239, 239, 0.5);
-    --negro-7: rgba(255, 255, 255, 0.75);
-  }
-}
+
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
@@ -188,7 +179,7 @@ body {
   font-size: 100%;
   font-family: 'Prompt', sans-serif;
   background-color: var(--blanco);
-  color: var(--negro);
+  color: var(--blanco);
   /* opcional */
   line-height: 1.4em;
   /* opcional */
@@ -242,6 +233,27 @@ body {
  
 }
 
+.picture-main{
+
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+
+
+
+.imagen{
+ 
+  text-align: center;
+  height: 100%;
+  width: 50vh;
+  display: flex;
+  padding: 2rem;
+  display: flex;
+ 
+
+}
 
 @keyframes circulo1{
   from{
@@ -394,7 +406,7 @@ fill: seagreen;
 
 .seccion .h2 {
   font-family: var(--tipo-titular);
-  color: var(--negro);
+  color: var(--blanco);
   font-size: 5em;
   font-weight: 300;
   padding-bottom: 2rem;
