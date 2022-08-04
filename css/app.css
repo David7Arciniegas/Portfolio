@@ -564,10 +564,7 @@ background: rgba(0, 0, 0, 0.7);
   .about .h2 {
     margin: 0 0 2rem;
     font-size: 5rem;
-  }
-
-
-  
+  } 
 
 }
 
@@ -579,6 +576,8 @@ background: rgba(0, 0, 0, 0.7);
     margin: 0 0 2rem;
     font-size: 5rem;
   }
+
+ 
 }
 
 @media (max-width: 600px) {
@@ -593,7 +592,8 @@ background: rgba(0, 0, 0, 0.7);
   .nav{
     padding-left: 2.8rem;
   }
-  
+
+
 
   .seccion .h3 {
 
@@ -622,14 +622,16 @@ background: rgba(0, 0, 0, 0.7);
 .nav{
   padding-left: 2rem;
 }
-
+.skillset-container{
+  width: 20rem;
+}
 
 }
 
 .skillset-container{
 
   display: flex;
-  width: 50%;
+  width: 20rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
