@@ -236,6 +236,13 @@ body {
 
 }
 
+
+#cuadros{
+  gap: 1rem;
+ 
+}
+
+
 @keyframes circulo1{
   from{
     transform: rotate(0deg) scale(3);
