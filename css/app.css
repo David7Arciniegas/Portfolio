@@ -8,7 +8,13 @@
     👉 Unificar la tipografía de todas las etiquetas de una web
 */
 /* Aquí definimos las Custom properties */
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+
+
 :root {
+  font-family: 'Prompt', sans-serif;
 
     --blanco: #e0e0e0;
     --blanco-2: rgba(235, 227, 227, .2);
@@ -111,7 +117,7 @@ u,
 em {
   font-size: 1em;
   font-weight: inherit;
-  font-style: inherit;
+  font-style: normal;
   text-decoration: none;
   color: inherit;
 }
@@ -180,7 +186,7 @@ svg {
 body {
   min-height: 100vh;
   font-size: 100%;
-  font-family: var(--tipo-principal);
+  font-family: 'Prompt', sans-serif;
   background-color: var(--blanco);
   color: var(--negro);
   /* opcional */
@@ -304,7 +310,7 @@ fill: seagreen;
 }
 .header .nav .ul {
     
-    
+  font-style: italic;  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -383,6 +389,7 @@ fill: seagreen;
   font-family: var(--tipo-titular);
   color: var(--negro);
   font-size: 5em;
+  font-weight: 300;
   padding-bottom: 2rem;
   font-weight: 550;
   line-height: 1em;
@@ -482,9 +489,9 @@ fill: seagreen;
   text-align: left;
 }
 .about .rrss {
-  width: 100%;
- 
 
+  margin-top: 2rem;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -513,9 +520,7 @@ background: rgba(0, 0, 0, 0.7);
   z-index: 10;
 }
 
-.footer .span {
 
-}
 
 
 @keyframes aparecer1{
@@ -620,3 +625,127 @@ background: rgba(0, 0, 0, 0.7);
 
 
 }
+
+.skillset-container{
+
+  display: flex;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  gap: 2.5rem;
+}
+
+.react{
+  width: 19rem;
+}
+
+
+
+
+
+.form {
+
+  margin-top: 5rem;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid rgb(107, 37, 205);
+/*   z-index: 1; */
+  animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title{
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+.termsConditions{
+  margin: 0 auto 5px 80px;
+}
+
+.pageTitle{
+  font-size: 2em;
+  font-weight: bold;
+}
+.secondaryTitle{
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: black;
+}
+.name:hover {
+  border-bottom: 5px solid rgb(107, 37, 205);
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid rgb(107, 37, 205);
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid rgb(107, 37, 205);
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #caa52a;
+  font-size: 20px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #3b0e50;
+  border-radius: 0%;
+}
+
+
+
+
