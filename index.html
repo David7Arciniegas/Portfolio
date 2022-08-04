@@ -197,20 +197,50 @@
     
 
   <div class="wrapper" id="contact">
-    <form class="form">
+    <form class="form" id="form" action="https://formspree.io/f/xzbwpyyl"
+    method="POST">
       <div class="pageTitle title">Contact me </div>
       <div class="secondaryTitle title">Here you can contact me directly <p>&#128512;</p> </div>
       <input type="text" class="name formEntry" placeholder="Name" />
-      <input type="text" class="email formEntry" placeholder="Email"/>
-      <textarea class="message formEntry" placeholder="Message"></textarea>
-      <input type="checkbox" class="termsConditions" value="Term">
+      <input type="e-mail" name="email" class="email formEntry" placeholder="Email"/>
+      <textarea name="message" class="message formEntry" placeholder="Message"></textarea>
+      <input  type="checkbox" class="termsConditions" value="Term">
     
-      <button class="submit formEntry" onclick="thanks()">Send Message!</button>
+      <button  type="submit" class="submit formEntry" onclick="thanks()">Send Message!</button>
       <span class="span">"Made with love in the mighty Academlo ♥"</span>
+      <br>
+      <h3>©David Guerrero - All rights reserved. </h3>
     </form>
+    
   </div>
 
   <script src="app.js"></script>
+
+  <script>
+
+ const $form = document.querySelector('form')
+ 
+ $form.addEventListener('submit', handlesubmit)
+
+ async function handlesubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    const response = await fetch(this.action, {
+
+        method: this.method,
+        body: form,
+        headers: {
+            'Accept': 'apllication/json'
+        }
+    })
+    if (response.ok) {
+        this.reset()
+        alert('Thanks for contacting me!, you will recieve my reply soon :)')
+    }
+ }
+
+
+  </script>
 
 </main>
 

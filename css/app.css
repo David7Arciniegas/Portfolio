@@ -234,7 +234,7 @@ body {
 }
 
 .picture-main{
-
+ 
   display: flex;
   justify-content: center;
  
@@ -244,7 +244,7 @@ body {
 
 
 .imagen{
- 
+
   text-align: center;
   height: 100%;
   width: 50vh;
@@ -712,11 +712,13 @@ background: rgba(0, 0, 0, 0.7);
   height: 30px;
   width: 380px;
   transition: ease 0.5s;
+    color: black;
 }
 
 .email {
   background-color: #ebebeb;
   height: 2em;
+  color: black;
 }
 
 .email:hover {
@@ -724,12 +726,14 @@ background: rgba(0, 0, 0, 0.7);
   height: 30px;
   width: 380px;
   transition: ease 0.5s;
+  color: black;
 }
 
 .message {
   background-color: #ebebeb;
   overflow: hidden;
   height: 10rem;
+  color: black;
 }
 
 .message:hover {
