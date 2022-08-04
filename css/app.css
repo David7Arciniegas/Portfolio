@@ -634,12 +634,16 @@ background: rgba(0, 0, 0, 0.7);
 @media (max-width: 450px) {
   .logo1{
     width: 30rem;
-  
+    padding-left: 1rem;
 
 }
 
+.about .h2 {
+  margin: 0 0 4rem;
+  font-size: 3rem;
+}
 .nav{
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 .skillset-container{
   width: 20rem;
