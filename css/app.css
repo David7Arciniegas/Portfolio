@@ -362,7 +362,11 @@ fill: seagreen;
   font-size: 1.2em;
   animation: aparecer1 ease 1 both;
 
+}
 
+#yellowtitle{
+  color: #caa52a;
+    
 }
 
 .seccion .ul {
@@ -487,7 +491,7 @@ fill: seagreen;
 }
 
 .about {
- , 
+ 
 }
 .about .h2 {
   margin: 0 0 2rem;
